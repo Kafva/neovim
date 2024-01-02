@@ -57,7 +57,7 @@ option(USE_BUNDLED_LUV "Use the bundled version of luv." ${USE_BUNDLED})
 #XXX(tarruda): Lua is only used for debugging the functional test client, don't
 # build it unless explicitly requested
 option(USE_BUNDLED_LUA "Use the bundled version of lua." OFF)
-option(USE_BUNDLED_TS_PARSERS "Use the bundled treesitter parsers." ${USE_BUNDLED})
+option(USE_BUNDLED_TS_PARSERS "Use the bundled treesitter parsers." OFF)
 option(USE_BUNDLED_TS "Use the bundled treesitter runtime." ${USE_BUNDLED})
 
 if(USE_BUNDLED AND MSVC)
